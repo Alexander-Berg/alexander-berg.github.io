@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
 name: Alexander Berg, QA Engineer
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
