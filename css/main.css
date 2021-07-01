@@ -1,5 +1,5 @@
 body {
-    margin: 60px auto;
+    margin: 20px auto;
     width: 70%;
 }
 nav ul, footer ul {
@@ -35,7 +35,7 @@ footer {
 }
 
 ul.posts { 
-    text-indent: 150px;
+    text-indent: 20px;
     margin: 40px auto 40px; 
     font-size: 3.5em;
 }
