@@ -25,19 +25,19 @@ h1 {
     color: #667FFF;
 }
 p {
-    font-size: 4.5em;
+    font-size: 3.5em;
     line-height: 1.4em;
     color: #667FFF;
 }
 footer {
     border-top: 1px solid #d5d5d5;
-    font-size: 5.8em;
+    font-size: 3.8em;
 }
 
 ul.posts { 
     text-indent: 150px;
     margin: 40px auto 40px; 
-    font-size: 5.5em;
+    font-size: 3.5em;
 }
 
 ul.posts li {
