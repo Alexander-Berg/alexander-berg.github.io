@@ -29,6 +29,7 @@ p {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     line-height: 1.4em;
     color: #667FFF;
+    font-weight: bold;
 }
 footer {
     border-top: 1px solid #667FFF;
