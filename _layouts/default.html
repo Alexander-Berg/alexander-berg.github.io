@@ -28,7 +28,7 @@ const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Satur
 const months = ["01","02","03","04","05","06","07","08","09","10","11","12"];
   m = checkTime(m);
   s = checkTime(s);
-  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s + "&emsp;" + days[today.getDay()] + ". " today.toLocaleDateString();
+  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s + "&emsp;" + days[today.getDay()] + "&emsp;" today.toLocaleDateString();
   setTimeout(startTime, 1000);
 }
 
