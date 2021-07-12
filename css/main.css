@@ -36,13 +36,8 @@ footer {
     border-top: 1px solid #667FFF;
     font-size: 2em;
 }
-
-ul.posts { 
-    text-indent: 20px;
-    margin: 40px auto 40px; 
-    font-size: 3em;
+d{ font-size = 2em;
+    font-weight: bold;
+    color: #667FFF;
 }
-
-ul.posts li {
-    list-style: none;
-}
+    
