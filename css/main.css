@@ -11,7 +11,7 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    font size: 2em;
+    font size: 3em;
     margin-right: 17px;
 }
 a {
