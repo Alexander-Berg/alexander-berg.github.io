@@ -1,5 +1,5 @@
 body {
-    margin: 20px auto;
+    margin: 17px auto;
     width: 70%;
     color: #667FFF;
 }
@@ -11,7 +11,7 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 17px;
 }
 a {
     text-decoration: none;
@@ -21,12 +21,12 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #667FFF;
 }
 p {
-    font-size: 3em;
+    font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     line-height: 1.4em;
     color: #667FFF;
@@ -34,13 +34,13 @@ p {
 }
 footer {
     border-top: 1px solid #667FFF;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 ul.posts { 
     text-indent: 20px;
     margin: 40px auto 40px; 
-    font-size: 3.5em;
+    font-size: 3em;
 }
 
 ul.posts li {
