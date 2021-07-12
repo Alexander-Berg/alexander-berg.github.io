@@ -29,7 +29,7 @@ function startTime() {
 const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   m = checkTime(m);
   s = checkTime(s);
-  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s + "   " + days[today.getDay()] + "" +today.getMonth + "" + today.getFullYear();
+  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s + "   " + days[today.getDay()] + "" + today.getMonth + "" + today.getFullYear();
   setTimeout(startTime, 1000);
 }
 
