@@ -25,11 +25,11 @@ function startTime() {
   let m = today.getMinutes();
   let s = today.getSeconds();
   const d = new Date();
-;
 const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+const months = ["January","February","Marth","April","May","June","July","August","September","October","November","December"];
   m = checkTime(m);
   s = checkTime(s);
-  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s + "   " + days[today.getDay()] + "" + today.getMonth + "" + today.getFullYear();
+  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s + "   " + days[today.getDay()] + "" + months[today.getMonth()] + "" + today.getFullYear();
   setTimeout(startTime, 1000);
 }
 
