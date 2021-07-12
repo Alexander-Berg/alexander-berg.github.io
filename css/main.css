@@ -26,10 +26,10 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #667FFF;
 }
-p {
+div {
     font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    line-height: 1.4em;
+    line-height: 3em;
     color: #667FFF;
     font-weight: bold;
 }
