@@ -1,6 +1,6 @@
 body {
     margin: 20px auto;
-    width: 70%;
+    width: 100%;
     color: #667FFF;
 }
 nav ul, footer ul {
@@ -46,3 +46,4 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+div{}
