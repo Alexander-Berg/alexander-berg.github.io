@@ -54,7 +54,7 @@ function startTime() {
 const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   m = checkTime(m);
   s = checkTime(s);
-document.getElementById('txt').innerHTML =  "Local time:" +"&emsp;" + h + ":" + m + ":" + s + "&emsp;" + days[today.getDay()] + ", "  + today.toLocaleDateString() + "&emsp;" +  "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;"  + "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" +  "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" +  "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" +  "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" +today.toUTCString();
+document.getElementById('txt').innerHTML =  "Local time:" +"&emsp;" + h + ":" + m + ":" + s + "&emsp;" + days[today.getDay()] + ", "  + today.toLocaleDateString() + "&emsp;" + "&emsp;" +  "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" +  "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" +  "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" + "&emsp;" +today.toUTCString();
  setTimeout(startTime, 1000);
 }
 function checkTime(i) {
