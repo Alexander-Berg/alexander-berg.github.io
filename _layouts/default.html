@@ -12,33 +12,13 @@ img {
   margin-right: auto;
 }
 </style>
-	<body onload="startTime()">
-
-<div id="txt" id="demo"></div>
-
-<script>
-function startTime() {
-  const today = new Date();
-  let h = today.getHours();
-  let m = today.getMinutes();
-  let s = today.getSeconds();
-  m = checkTime(m);
-  s = checkTime(s);
-  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
-  setTimeout(startTime, 1000);
-}
-
-function checkTime(i) {
-  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-  return i;
-}
-</script>
-		
+<body>
+	
+<p id="demo"></p>
 
 <script>
 const d = new Date();
-const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-document.getElementById("demo").innerHTML = days[d.getDay()];
+document.getElementById("demo").innerHTML = d;
 </script>
 
 </body>
