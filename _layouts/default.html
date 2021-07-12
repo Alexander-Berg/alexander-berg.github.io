@@ -83,7 +83,8 @@ function startTime() {
 const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   m = checkTime(m);
   s = checkTime(s);
-  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s + "&emsp;" + days[today.getDay()] + "&emsp;"  + today.toLocaleDateString();
+d.toUTCString();
+ document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s + "&emsp;" + days[today.getDay()] + "&emsp;"  + today.toLocaleDateString() + "&emsp;" + today.toUTCString();
   setTimeout(startTime, 1000);
 }
 
@@ -118,12 +119,5 @@ function checkTime(i) {
 			</footer>
 			<p id="demo"></p>
 </body>
-	<body>
-<p id="demo"></p>
-<script>
-const d = new Date();
-document.getElementById("demo").innerHTML = d.toUTCString();
-</script>
 
-</body>
 	</html>
