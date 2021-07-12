@@ -29,7 +29,7 @@ const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Satur
 const months = ["January","February","Marth","April","May","June","July","August","September","October","November","December"];
   m = checkTime(m);
   s = checkTime(s);
-  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s + "   " + days[today.getDay()] + "" + months[today.getMonth()] + "" + today.getFullYear();
+  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s + "   " + days[today.getDay()] + ", " + months[today.getMonth()] + ", " + today.getFullYear();
   setTimeout(startTime, 1000);
 }
 
