@@ -8,7 +8,7 @@
                         <title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+
 
 </head>
 <style>
@@ -52,8 +52,8 @@ a:active {
 				srcset="src/Desktop.png">
 		<source
 				media="(orientation: portrait)"
-				srcset="src/Smalloval.png" class="center">
-		<img src="src/Smalloval.png" style="width:400px;height:411px; border="0">
+				srcset="src/Smalloval.png">
+		<img src="src/Smalloval.png" style="width:400px;height:411px; border="0; class="center";>
 	</picture>
 
 
@@ -67,7 +67,6 @@ a:active {
 
 <!-- The navigation menu -->
 <div class="navbar">
-	<audio id="sound" controls preload="auto"><source src="http://soundbible.com/mp3/MP5_SMG-GunGuru-703432894.mp3" controls></source></audio>
 <a href="https://github.com/Alexander-Berg/A.Berg-Resume">
 	<img alt="My Resume" src="src/resume.png" class="cat-img">
 	My Resume
@@ -106,26 +105,7 @@ a:active {
 	IT News
 </a>
 </div>
-<script>
-$("#navbar a")
-  .each(function(i) {
-    if (i != 0) {
-      $("#sound")
-        .clone()
-        .attr("id", "sound" + i)
-        .appendTo($(this).parent());
-    }
-    $(this).data("beep", i);
-  })
-  .mouseenter(function() {
-    $("#sound" + $(this).data("beep"))[0].play();
-  });
-$("#sound").attr("id", "sound0");
-</script>
 
-<video autoplay muted loop id="myVideo">
-  <source src="src/tech.mp4" type="video/mp4">
-</video>
 
 <footer>
 	
