@@ -39,6 +39,7 @@ footer {
 d{ font-size = 1em;
     color: Orange;
    display: center;
+    text-align:center
 }
 
 .navbar {
