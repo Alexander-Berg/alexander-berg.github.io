@@ -64,9 +64,10 @@ d { font-size = 1em;
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: underline;
-    text-decoration-color: orange;	
   font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: blue;	
+  
 }
 
 
