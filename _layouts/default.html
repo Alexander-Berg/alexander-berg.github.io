@@ -111,7 +111,7 @@ function startTime() {
 const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   m = checkTime(m);
   s = checkTime(s);
-document.getElementById('txt').innerHTML = today.toLocaleDateString() + today.toUTCString();
+document.getElementById('txt').innerHTML = today.toUTCString();
  setTimeout(startTime, 1000);
 }
 function checkTime(i) {
