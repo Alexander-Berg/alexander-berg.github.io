@@ -60,7 +60,7 @@ d { font-size = 1em;
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: bold;
 }
 
@@ -108,7 +108,7 @@ d { font-size = 1em;
 .subnav-content a {
   float: left;
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .subnav-content a:hover {
