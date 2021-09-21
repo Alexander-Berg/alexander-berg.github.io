@@ -145,4 +145,16 @@ d { font-size = 1em;
   
 }
 
+img.cat-img {
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    margin: 4px 5px 4px 10px;
+    vertical-align: middle;
+    border-radius: 90px;
+    -moz-border-radius: 90px;
+    display: inherit;
+}
+
+
     
