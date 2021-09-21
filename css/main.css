@@ -49,10 +49,10 @@ d { font-size = 1em;
   background-color: #333; 
 }
 
-.navbar:hover {
+.navbar a:hover {
   background-color: green;
-  color: black;
 }
+
 
 .navbar a {
   float: left;
