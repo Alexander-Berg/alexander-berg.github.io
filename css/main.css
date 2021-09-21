@@ -17,12 +17,12 @@ nav ul li, footer ul li {
 a {
     text-decoration: underline;
     color: orange;
-    text-decoration-color: orange;	
+    text-decoration-color: green;
 }
 a:hover {
     text-decoration: underline;
     color: orange;
-    text-decoration-color: orange;	
+    text-decoration-color: green;
 }
 h1 {
     font-size: 2em;
@@ -53,7 +53,7 @@ d { font-size = 1em;
   overflow: hidden;
   background-color: #333; 
   text-decoration: underline;
-  text-decoration-color: orange;
+  text-decoration-color: green;
 }
 
 
@@ -66,7 +66,7 @@ d { font-size = 1em;
   padding: 14px 16px;
   font-weight: bold;
   text-decoration: underline;
-  text-decoration-color: blue;	
+  text-decoration-color: green;
   
 }
 
@@ -97,13 +97,13 @@ d { font-size = 1em;
   font-family: inherit;
   margin: 0;
   text-decoration: underline;
-    text-decoration-color: orange;	
+    text-decoration-color: green;
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn {
   background-color: green;
   text-decoration: underline;
-  text-decoration-color: orange;	
+  text-decoration-color: green;
   
 }
 
@@ -120,7 +120,7 @@ d { font-size = 1em;
   float: left;
   color: white;
   text-decoration: underline;
-  text-decoration-color: orange;	
+  text-decoration-color: green;
 }
 
 .subnav-content a:hover {
