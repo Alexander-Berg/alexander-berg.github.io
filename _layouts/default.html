@@ -46,16 +46,14 @@ a:active {
 }
 		
 </style>
-	<picture>
-		<source
-				media="(orientation: landscape)"
-				srcset="src/Desktop.png">
-		<source
-				media="(orientation: portrait)"
-				srcset="src/Smalloval.png" >
-		<img src="src/Smalloval.png" border="0" class="center">
-	</picture>
+	<img srcset="src/smalloval.png 480w,
+                 src/Desktop.png 800w,
+                 src/big.png 1000w"
 
+		 sizes="(max-width: 600px) 480px,
+                (max-width: 900px) 800px,
+1000px"
+		 src="src/big.png">
 
 <body>
 	
