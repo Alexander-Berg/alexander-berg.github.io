@@ -125,10 +125,10 @@ d { font-size = 1em;
   margin-right: auto;
   width: auto;
   height: auto;
-  maxwidth: 85%;
-  minwidth: 35%;
-  maxheight: 80%;
-  minheight: 35%;
+  max-width: 85%;
+  min-width: 35%;
+  max-height: 80%;
+  min-height: 35%;
   
   
 }
