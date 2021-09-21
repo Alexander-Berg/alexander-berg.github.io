@@ -1,7 +1,7 @@
 body {
     margin: 17px auto;
     width: 70%;
-    color: Orange;
+    color: Black;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -16,7 +16,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: Orange;
+    color: black;
 }
 a:hover {
     text-decoration: underline;
@@ -118,6 +118,13 @@ d { font-size = 1em;
 
 .subnav:hover .subnav-content {
   display: block;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
     
