@@ -16,10 +16,11 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: underline;
-    color: black;
+    color: orange;
 }
 a:hover {
     text-decoration: underline;
+    color: orange;
 }
 h1 {
     font-size: 2em;
@@ -90,10 +91,13 @@ d { font-size = 1em;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  text-decoration: underline;
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn {
   background-color: green;
+  text-decoration: underline;
+  
 }
 
 .subnav-content {
