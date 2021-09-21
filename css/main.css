@@ -38,7 +38,9 @@ footer {
     border-top: 1px solid Orange;
     font-size: 1em;
 }
-d { font-size = 1em;
+d {
+    margin: 17px auto;
+    font-size = 1em;
     color: Orange;
    text-align: center;
 }
