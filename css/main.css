@@ -40,7 +40,6 @@ p {
 footer {
     border-top: 1px solid Orange;
     font-size: 1em;
-     margin: 17px auto;
     text-align: center;
 }
 d { font-size = 1em;
@@ -53,6 +52,8 @@ d { font-size = 1em;
 .navbar {
   overflow: hidden;
   background-color: #333; 
+  text-decoration: underline;
+  text-decoration-color: orange;
 }
 
 
