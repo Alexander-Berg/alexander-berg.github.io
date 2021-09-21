@@ -25,12 +25,14 @@ h1 {
     font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: Orange;
+    text-align: center;
 }
 p {
     font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: Orange;
     font-weight: bold;
+    text-align: center;
 }
 footer {
     border-top: 1px solid Orange;
