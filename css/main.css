@@ -137,9 +137,9 @@ d { font-size = 1em;
   margin-right: auto;
   width: auto;
   height: auto;
-  max-width: 50%;
-  min-width: 40%;
-  max-height: 50%;
+  max-width: 40%;
+  min-width: 20%;
+  max-height: 20%;
   min-height: 40%;
   
   
