@@ -17,7 +17,10 @@ nav ul li, footer ul li {
 a {
     text-decoration: underline;
     color: orange;
-    text-decoration-color: green;
+    text-decoration-color: orange;
+    vertical-align: middle;
+    
+    
 }
 a:hover {
     text-decoration: underline;
@@ -63,6 +66,7 @@ d { font-size = 1em;
   font-size: 16px;
   color: white;
   text-align: center;
+  vertical-align: middle;
   padding: 14px 16px;
   font-weight: bold;
   text-decoration: underline;
@@ -167,7 +171,7 @@ img.cat-img {
     display: inherit;
 }
 audio {
-    width: 250px;
+    width: auto;
     height: 40px;
 }
 
