@@ -48,12 +48,10 @@ footer {
 d { font-size = 1em;
     color: Orange;
    text-align: center;
-   margin: 17px auto;
 }  
  b {
     color: Orange;
    text-align: center;
-   margin: 17px auto;
    position: relative;
    down: 10px;
     
