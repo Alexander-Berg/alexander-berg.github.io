@@ -48,15 +48,8 @@ footer {
 d { font-size = 1em;
     color: Orange;
    text-align: center;
-}  
- b {
-    color: Orange;
-   text-align: center;
-   position: relative;
-   down: 10px;
+   margin: 17px auto;
     
-}
-
 .navbar {
   overflow: hidden;
   background: rgba(9, 13, 58, 0.8);
