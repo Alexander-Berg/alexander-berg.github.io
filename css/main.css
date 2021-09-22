@@ -50,6 +50,13 @@ d { font-size = 1em;
    text-align: center;
    margin: 17px auto;
     
+ b { font-size = 1em;
+    color: Orange;
+   text-align: center;
+   margin: 17px auto;
+   position: relative;
+   down: 10px;
+    
 }
 
 .navbar {
