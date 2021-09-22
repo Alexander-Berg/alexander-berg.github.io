@@ -68,6 +68,10 @@ a:active {
 
 <!-- The navigation menu -->
 <div class="navbar">
+<audio id="beep-three" controls preload="auto">
+<source src="src/beep.mp3" controls>
+<source src="src/beep.ogg" controls>
+</audio>
 <a href="https://github.com/Alexander-Berg/A.Berg-Resume">
 	<img alt="My Resume" src="src/resume.png" style="float:left" class="cat-img">
 	My Resume
@@ -105,6 +109,14 @@ a:active {
 	<img alt="My Resume" src="src/news.png" style="float:left" class="cat-img">
 	IT News
 </a>
+<script>
+var beepThree = $("#beep-three")[0];
+$("#navbar a")
+	.mouseenter(function() {
+		beepThree.pause();
+		beepThree.play();
+	});
+</script>
 </div>
 
 <video autoplay muted loop id="myVideo">
@@ -114,18 +126,8 @@ a:active {
 	<source src="src/beep.mp3" controls></source>
 	<source src="src/beep.ogg" controls></source>
 	</audio>
-<audio id="beep-three" controls preload="auto">
-<source src="src/beep.mp3" controls>
-<source src="src/beep.ogg" controls>
-</audio>
-<script>
-var beepThree = $("#beep-three")[0];
-$("#div.navbar a")
-	.mouseenter(function() {
-		beepThree.pause();
-		beepThree.play();
-	});
-</script>
+
+
 
 
 
