@@ -49,16 +49,7 @@ a:active {
 }
 		
 </style>
-	<picture>
-		<source
-				media="(orientation: landscape)"
-				srcset="src/Desktop.png">
-
-		<source
-				media="(orientation: portrait)"
-				srcset="src/Smalloval.png">
-		<img src="src/Smalloval.png" border="0">
-	</picture>
+	
 <body>
 <audio id="divAudio">
    <source src="source.mp3" type="audio/mp3">
@@ -70,7 +61,17 @@ a:active {
       vAudio.play();
    }
 </script>
-<div onmouseover="playMusic()">	
+<div onmouseover="playMusic()">
+<picture>
+		<source
+				media="(orientation: landscape)"
+				srcset="src/Desktop.png">
+
+		<source
+				media="(orientation: portrait)"
+				srcset="src/Smalloval.png">
+		<img src="src/Smalloval.png" border="0">
+	</picture>
 	
 <div class="container">
 			
