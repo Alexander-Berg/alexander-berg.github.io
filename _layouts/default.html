@@ -13,11 +13,6 @@
 </head>
 
 <style>
-<audio controls preload="auto">
-	<source src="src/beep.mp3" controls></source>
-	<source src="src/beep.ogg" controls></source>
-	
-</audio>
 
 img {
   display: block;
@@ -113,6 +108,17 @@ a:active {
 <video autoplay muted loop id="myVideo">
   <source src="src/max1.mp4" type="video/mp4">
 </video>
+<audio controls preload="auto">
+	<source src="src/beep.mp3" controls></source>
+	<source src="src/beep.ogg" controls></source>
+	
+</audio>
+var beepThree = $("#beep-three")[0];
+$("#nav-three a")
+	.mouseenter(function() {
+		beepThree.pause();
+		beepThree.play();
+	});
 
 <footer>
 	
