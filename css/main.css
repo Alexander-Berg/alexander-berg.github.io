@@ -28,12 +28,14 @@ h1 {
     font-size: 2em;
     color: Orange;
     text-align: center;
+    margin: 11px auto;
 }
 p {
     font-size: 2em;
     color: Orange;
     font-weight: bold;
     text-align: center;
+    margin 16px auto;
 }
 footer {
     border-top: 1px solid Orange;
@@ -166,8 +168,8 @@ img.cat-img {
 }
 audio {
     filter: sepia(20%) saturate(50%) grayscale(1) contrast(99%) invert(12%);
-    width: 500px;
-    height: 50px;
+    width: 350px;
+    height: 40px;
 }
 
 
