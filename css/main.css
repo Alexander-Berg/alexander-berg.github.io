@@ -18,7 +18,7 @@ a {
     text-decoration: underline;
     color: orange;
     text-decoration-color: orange;
-    vertical-align: middle;
+    
     
     
 }
@@ -49,9 +49,7 @@ d { font-size = 1em;
     color: Orange;
    text-align: center;
    margin: 17px auto;
-    
 }
-
 .navbar {
   overflow: hidden;
   background: rgba(9, 13, 58, 0.8);
@@ -66,7 +64,6 @@ d { font-size = 1em;
   font-size: 16px;
   color: white;
   text-align: center;
-  vertical-align: middle;
   padding: 14px 16px;
   font-weight: bold;
   text-decoration: underline;
@@ -171,8 +168,7 @@ img.cat-img {
     display: inherit;
 }
 audio {
-    width: auto;
-    height: 40px;
+    height: 35px;
 }
 
 

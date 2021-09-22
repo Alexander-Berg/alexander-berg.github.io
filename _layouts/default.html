@@ -13,7 +13,7 @@
 </head>
 
 <style>
-<style type="text/css">audio {display: none;}
+
 img {
   display: block;
   margin-left: auto;
@@ -68,7 +68,7 @@ a:active {
 <div class="navbar">
 <a href="https://github.com/Alexander-Berg/A.Berg-Resume">
 	<img alt="My Resume" src="src/resume.png" style="float:left" class="cat-img">
-	My Resume</a>
+	My Resume
 <a href=https://github.com/Alexander-Berg>
 	<img alt="My Resume" src="src/hh.png" style="float:left" class="cat-img">
 	My Headhunter
@@ -108,6 +108,17 @@ a:active {
 <video autoplay muted loop id="myVideo">
   <source src="src/max1.mp4" type="video/mp4">
 </video>
+<audio controls preload="auto">
+	<source src="src/beep.mp3" controls></source>
+	<source src="src/beep.ogg" controls></source>
+	
+</audio>
+var beepThree = $("#beep-three")[0];
+$("#nav-three a")
+	.mouseenter(function() {
+		beepThree.pause();
+		beepThree.play();
+	});
 
 <footer>
 	
