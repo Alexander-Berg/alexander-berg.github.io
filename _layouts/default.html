@@ -49,7 +49,20 @@ a:active {
 }
 		
 </style>
-	<picture>
+	
+<body>
+<audio id="divAudio">
+   <source src="source.mp3" type="audio/mp3">
+</audio>
+<script>
+   var vAudio = document.getElementById("divAudio");
+   function playMusic()
+   {
+      vAudio.play();
+   }
+</script>
+<div onmouseover="playMusic()">
+<picture>
 		<source
 				media="(orientation: landscape)"
 				srcset="src/Desktop.png">
@@ -59,7 +72,6 @@ a:active {
 				srcset="src/Smalloval.png">
 		<img src="src/Smalloval.png" border="0">
 	</picture>
-<body>
 	
 <div class="container">
 			
@@ -87,12 +99,12 @@ a:active {
 <a href=https://t.me/Alexander_Berg>
 	<img alt="My Resume" src="src/telegram.png" style="float:left" class="cat-img">
 	My Telegram
-<a href="mailto:alexandr.berg92@gmail.com">
-	<img alt="My Resume" src="src/gmail.png" style="float:left" class="cat-img">
-	My Email
 <a href="https://stackoverflow.com">
 	<img alt="My Resume" src="src/facebook.png" style="float:left" class="cat-img">
 	My Facebook
+<a href="mailto:alexandr.berg92@gmail.com">
+	<img alt="My Resume" src="src/gmail.png" style="float:left" class="cat-img">
+	My Email
 <a href="https://stackoverflow.com">
 	<img alt="My Resume" src="src/pay.png" style="float:left" class="cat-img">
 	My Paypal
@@ -110,11 +122,20 @@ a:active {
 	IT News
 </a>
 <script>
-var beepThree = $("#beep-three")[0];
 $("div.navbar a")
-	.mouseenter(function() {
-		beepThree.play();
-	});
+  .each(function(i) {
+    if (i != 0) {
+      $("#beep-three")
+        .clone()
+        .attr("id", "beep-three" + i)
+        .appendTo($(this).parent());
+    }
+    $(this).data("beeper", i);
+  })
+  .mouseenter(function() {
+    $("#beep-three" + $(this).data("beeper"))[0].play();
+  });
+$("#beep-three").attr("id", "beep-three0");
 </script>
 </div>
 
@@ -149,6 +170,7 @@ function checkTime(i) {
 </d>
 <d>Created by Alexander Berg,2021</d>
 </footer>
+	</div>
 </body>
 
 </html>
