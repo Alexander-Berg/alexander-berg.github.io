@@ -168,7 +168,7 @@ img.cat-img {
 }
 audio {
     filter: sepia(20%) saturate(50%) grayscale(1) contrast(99%) invert(12%);
-    width: 300px;
+    width: 500px;
     height: 40px;
 }
 
