@@ -60,6 +60,17 @@ a:active {
 		<img src="src/Smalloval.png" border="0">
 	</picture>
 <body>
+<audio id="divAudio">
+   <source src="source.mp3" type="audio/mp3">
+</audio>
+<script>
+   var vAudio = document.getElementById("divAudio");
+   function playMusic()
+   {
+      vAudio.play();
+   }
+</script>
+<div onmouseover="playMusic()">	
 	
 <div class="container">
 			
@@ -158,6 +169,7 @@ function checkTime(i) {
 </d>
 <d>Created by Alexander Berg,2021</d>
 </footer>
+	</div>
 </body>
 
 </html>
