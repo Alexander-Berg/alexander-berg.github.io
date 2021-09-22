@@ -35,7 +35,7 @@ p {
     color: Orange;
     font-weight: bold;
     text-align: center;
-    margin 16px auto;
+    margin: 16px auto;
 }
 footer {
     border-top: 1px solid Orange;
