@@ -51,7 +51,7 @@ d { font-size = 1em;
 
 .navbar {
   overflow: hidden;
-  background-color: #333; 
+  background: rgba(9, 13, 58, 0.8);
   text-decoration: underline;
   text-decoration-color: green;
 }
