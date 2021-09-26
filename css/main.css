@@ -184,8 +184,12 @@ audio {
       .navbar a 
      {
         font-size:12px;
-        padding: 14px 16px;
+        padding: 10px 12px;
      }
+     audio {
+    height: 35px;
+    width: auto;
+}
  }
  @media (min-width: 1400px) 
  {
