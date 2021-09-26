@@ -174,20 +174,35 @@ audio {
 .blurb {
     text-align: center;
 }
+@media (min-width: 1000px) 
+ {
+    body
+    {
+        font-size: 40px; 
+    }
+    
+      .navbar a 
+     {
+        font-size:34px;
+        padding: 14px 16px;
+     }
+ }
  @media (min-width: 1400px) 
  {
     body
     {
         font-size: 50px; 
-    }
-    h1
-    {
-        font-size:50px;
-    }
+     }
+    
      .navbar a 
      {
         font-size:42px;
+        padding: 28px 32px;
      }
+          audio {
+    height: 60px;
+    width:  600px;
+}
  }
  @media (min-width: 2000px) 
  {
@@ -195,14 +210,16 @@ audio {
     {
         font-size: 72px; 
     }
-    h1
-    {
-        font-size:72px;
-    }
+    
       .navbar a 
      {
         font-size:64px;
+        padding: 42px 48px;
      }
+       audio {
+    height: 90px;
+    width:  900px;
+}
  }
  @media (min-width: 2800px) 
  {
@@ -210,13 +227,15 @@ audio {
     {
         font-size: 96px; 
     }
-    h1
-    {
-        font-size:96px;
-    }
       .navbar a 
      {
         font-size:88px;
+        padding: 56px 64px;
+        
      }
+     audio {
+    height: 120px;
+    width:  1200px;
+}
  }
     
