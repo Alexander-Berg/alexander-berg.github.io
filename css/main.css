@@ -1,5 +1,6 @@
 body {
     margin: 17px auto;
+    min-width:70%;
     width: 70%;
     color: Black;
 }
@@ -170,6 +171,74 @@ img.cat-img {
 audio {
     height: 35px;
 }
-
-
+.blurb {
+    text-align: center;
+}
+@media (min-width: 2000px) 
+ {
+    body
+    {
+        font-size: 13px; 
+    }
+    
+      .navbar a 
+     {
+        font-size:11px;
+        padding: 6px 8px;
+     }
+     audio {
+    height: 35px;
+}
+ }
+ @media (min-width: 2049px) 
+ {
+    body
+    {
+        font-size: 23px; 
+     }
+    
+     .navbar a 
+     {
+        font-size:19px;
+        padding: 28px 32px;
+     }
+          audio {
+    height: 60px;
+    width:  600px;
+}
+ }
+ @media (min-width: 3800px) 
+ {
+    body
+    {
+        font-size: 38px; 
+    }
+    
+      .navbar a 
+     {
+        font-size:32px;
+        padding: 42px 48px;
+     }
+       audio {
+    height: 125px;
+    width:  900px;
+}
+ }
+ @media (min-width: 6000px) 
+ {
+    body
+    {
+        font-size: 76px; 
+    }
+      .navbar a 
+     {
+        font-size:64px;
+        padding: 56px 64px;
+        
+     }
+     audio {
+    height: 250px;
+    width:  1200px;
+}
+ }
     
