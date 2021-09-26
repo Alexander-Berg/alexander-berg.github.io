@@ -178,12 +178,12 @@ audio {
  {
     body
     {
-        font-size: 20px; 
+        font-size: 15px; 
     }
     
       .navbar a 
      {
-        font-size:34px;
+        font-size:12px;
         padding: 14px 16px;
      }
  }
@@ -191,12 +191,12 @@ audio {
  {
     body
     {
-        font-size: 33px; 
+        font-size: 23px; 
      }
     
      .navbar a 
      {
-        font-size:28px;
+        font-size:19px;
         padding: 28px 32px;
      }
           audio {
@@ -208,12 +208,12 @@ audio {
  {
     body
     {
-        font-size: 48px; 
+        font-size: 38px; 
     }
     
       .navbar a 
      {
-        font-size:40px;
+        font-size:32px;
         padding: 42px 48px;
      }
        audio {
@@ -225,11 +225,11 @@ audio {
  {
     body
     {
-        font-size: 90px; 
+        font-size: 76px; 
     }
       .navbar a 
      {
-        font-size:80px;
+        font-size:64px;
         padding: 56px 64px;
         
      }
