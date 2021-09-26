@@ -178,12 +178,12 @@ audio {
  {
     body
     {
-        font-size: 15px; 
+        font-size: 11px; 
     }
     
       .navbar a 
      {
-        font-size:12px;
+        font-size:8px;
         padding: 6px 8px;
      }
      audio {
