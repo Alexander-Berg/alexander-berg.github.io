@@ -174,7 +174,7 @@ audio {
 .blurb {
     text-align: center;
 }
-@media (min-width: 850px) 
+@media (min-width: 2000px) 
  {
     body
     {
@@ -190,7 +190,7 @@ audio {
     height: 35px;
 }
  }
- @media (min-width: 1400px) 
+ @media (min-width: 2049px) 
  {
     body
     {
@@ -207,7 +207,7 @@ audio {
     width:  600px;
 }
  }
- @media (min-width: 2000px) 
+ @media (min-width: 3800px) 
  {
     body
     {
@@ -224,7 +224,7 @@ audio {
     width:  900px;
 }
  }
- @media (min-width: 2800px) 
+ @media (min-width: 6000px) 
  {
     body
     {
