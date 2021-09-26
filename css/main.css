@@ -178,7 +178,7 @@ audio {
  {
     body
     {
-        font-size: 40px; 
+        font-size: 20px; 
     }
     
       .navbar a 
@@ -191,12 +191,12 @@ audio {
  {
     body
     {
-        font-size: 50px; 
+        font-size: 33px; 
      }
     
      .navbar a 
      {
-        font-size:42px;
+        font-size:28px;
         padding: 28px 32px;
      }
           audio {
@@ -208,16 +208,16 @@ audio {
  {
     body
     {
-        font-size: 72px; 
+        font-size: 48px; 
     }
     
       .navbar a 
      {
-        font-size:64px;
+        font-size:40px;
         padding: 42px 48px;
      }
        audio {
-    height: 90px;
+    height: 125px;
     width:  900px;
 }
  }
@@ -225,16 +225,16 @@ audio {
  {
     body
     {
-        font-size: 96px; 
+        font-size: 90px; 
     }
       .navbar a 
      {
-        font-size:88px;
+        font-size:80px;
         padding: 56px 64px;
         
      }
      audio {
-    height: 120px;
+    height: 250px;
     width:  1200px;
 }
  }
