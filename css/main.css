@@ -174,5 +174,15 @@ audio {
 .blurb {
     text-align: center;
 }
-
+ @media (min-width: 1440px) 
+ {
+    body
+    {
+        font-size: 45px; 
+    }
+    h1
+    {
+        font-size:72px;
+    }
+ }
     
