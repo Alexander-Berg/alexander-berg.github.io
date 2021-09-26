@@ -174,15 +174,49 @@ audio {
 .blurb {
     text-align: center;
 }
- @media (min-width: 1440px) 
+ @media (min-width: 1400px) 
  {
     body
     {
-        font-size: 45px; 
+        font-size: 50px; 
+    }
+    h1
+    {
+        font-size:50px;
+    }
+     .navbar a 
+     {
+        font-size:42px;
+     }
+ }
+ @media (min-width: 2000px) 
+ {
+    body
+    {
+        font-size: 72px; 
     }
     h1
     {
         font-size:72px;
     }
+      .navbar a 
+     {
+        font-size:64px;
+     }
+ }
+ @media (min-width: 2800px) 
+ {
+    body
+    {
+        font-size: 96px; 
+    }
+    h1
+    {
+        font-size:96px;
+    }
+      .navbar a 
+     {
+        font-size:88px;
+     }
  }
     
