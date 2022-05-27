@@ -26,181 +26,7 @@ a:hover {
     text-decoration-color: green;
 }
 
-a1 {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: orange;    
-}
-a1:hover {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: green;
-}
 
-a2 {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: orange;    
-}
-a2:hover {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: green;
-}
-
-a3 {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: orange;    
-}
-a3:hover {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: green;
-}
-
-a4 {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: orange;    
-}
-a4:hover {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: green;
-}
-
-a5 {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: orange;    
-}
-a5:hover {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: green;
-}
-
-a6 {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: orange;    
-}
-a6:hover {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: green;
-}
-
-a7 {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: orange;    
-}
-a7:hover {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: green;
-}
-
-a8 {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: orange;    
-}
-a8:hover {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: green;
-}
-
-a9 {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: orange;    
-}
-a9:hover {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: green;
-}
-
-a10 {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: orange;    
-}
-a10:hover {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: green;
-}
-
-a11 {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: orange;    
-}
-a11:hover {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: green;
-}
-
-a12 {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: orange;    
-}
-a12:hover {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: green;
-}
-
-a13 {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: orange;    
-}
-a13:hover {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: green;
-}
-
-a14 {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: orange;    
-}
-a14:hover {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: green;
-}
-
-a15 {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: orange;    
-}
-a15:hover {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: green;
-}
-
-a16 {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: orange;    
-}
-a16:hover {
-    text-decoration: underline;
-    color: orange;
-    text-decoration-color: green;
-}
 h1 {
     font-size: 2em;
     color: Orange;
@@ -244,197 +70,7 @@ d { font-size = 1em;
   text-decoration-color: green;
   
 }
-.navbar a1 {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  font-weight: bold;
-  text-decoration: underline;
-  text-decoration-color: green;
-  
-}
 
-.navbar a2 {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  font-weight: bold;
-  text-decoration: underline;
-  text-decoration-color: green;
-  
-}
-
-.navbar a3 {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  font-weight: bold;
-  text-decoration: underline;
-  text-decoration-color: green;
-  
-}
-
-.navbar a4 {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  font-weight: bold;
-  text-decoration: underline;
-  text-decoration-color: green;
-  
-}
-
-.navbar a5 {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  font-weight: bold;
-  text-decoration: underline;
-  text-decoration-color: green;
-  
-}
-
-.navbar a6 {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  font-weight: bold;
-  text-decoration: underline;
-  text-decoration-color: green;
-  
-}
-
-.navbar a7 {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  font-weight: bold;
-  text-decoration: underline;
-  text-decoration-color: green;
-  
-}
-
-.navbar a8 {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  font-weight: bold;
-  text-decoration: underline;
-  text-decoration-color: green;
-  
-}
-
-.navbar a9 {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  font-weight: bold;
-  text-decoration: underline;
-  text-decoration-color: green;
-  
-}
-
-.navbar a10 {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  font-weight: bold;
-  text-decoration: underline;
-  text-decoration-color: green;
-  
-}
-
-.navbar a11 {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  font-weight: bold;
-  text-decoration: underline;
-  text-decoration-color: green;
-  
-}
-
-.navbar a12 {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  font-weight: bold;
-  text-decoration: underline;
-  text-decoration-color: green;
-  
-}
-
-.navbar a13 {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  font-weight: bold;
-  text-decoration: underline;
-  text-decoration-color: green;
-  
-}
-
-.navbar a14 {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  font-weight: bold;
-  text-decoration: underline;
-  text-decoration-color: green;
-  
-}
-
-.navbar a15 {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  font-weight: bold;
-  text-decoration: underline;
-  text-decoration-color: green;
-  
-}
-
-.navbar a16 {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  font-weight: bold;
-  text-decoration: underline;
-  text-decoration-color: green;
-  
-}
 
 
 #myVideo {
@@ -466,7 +102,7 @@ d { font-size = 1em;
     text-decoration-color: green;
 }
 
-.navbar a,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16:hover, .subnav:hover .subnavbtn {
+.navbar a:hover, .subnav:hover .subnavbtn {
   background-color: green;
   text-decoration: underline;
   text-decoration-color: green;
@@ -482,14 +118,14 @@ d { font-size = 1em;
   z-index: 1;
 }
 
-.subnav-content a,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16 {
+.subnav-content a {
   float: left;
   color: white;
   text-decoration: underline;
   text-decoration-color: green;
 }
 
-.subnav-content a,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16:hover {
+.subnav-content a:hover {
   background-color: #eee;
   color: black;
 }
@@ -545,7 +181,7 @@ audio {
         font-size: 13px; 
     }
     
-      .navbar a,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16
+      .navbar a
      {
         font-size:11px;
         padding: 6px 8px;
@@ -561,7 +197,7 @@ audio {
         font-size: 23px; 
      }
     
-     .navbar a,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16
+     .navbar a
      {
         font-size:19px;
         padding: 28px 32px;
@@ -578,7 +214,7 @@ audio {
         font-size: 38px; 
     }
     
-      .navbar a,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16 
+      .navbar a
      {
         font-size:32px;
         padding: 42px 48px;
@@ -594,7 +230,7 @@ audio {
     {
         font-size: 76px; 
     }
-      .navbar a,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16 
+      .navbar a
      {
         font-size:64px;
         padding: 56px 64px;
