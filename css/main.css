@@ -18,10 +18,7 @@ nav ul li, footer ul li {
 a {
     text-decoration: underline;
     color: orange;
-    text-decoration-color: orange;
-    
-    
-    
+    text-decoration-color: orange;    
 }
 a:hover {
     text-decoration: underline;
@@ -61,6 +58,197 @@ d { font-size = 1em;
 
 
 .navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: green;
+  
+}
+.navbar a1 {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: green;
+  
+}
+
+.navbar a2 {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: green;
+  
+}
+
+.navbar a3 {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: green;
+  
+}
+
+.navbar a4 {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: green;
+  
+}
+
+.navbar a5 {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: green;
+  
+}
+
+.navbar a6 {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: green;
+  
+}
+
+.navbar a7 {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: green;
+  
+}
+
+.navbar a8 {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: green;
+  
+}
+
+.navbar a9 {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: green;
+  
+}
+
+.navbar a10 {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: green;
+  
+}
+
+.navbar a11 {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: green;
+  
+}
+
+.navbar a12 {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: green;
+  
+}
+
+.navbar a13 {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: green;
+  
+}
+
+.navbar a14 {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: green;
+  
+}
+
+.navbar a15 {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: green;
+  
+}
+
+.navbar a16 {
   float: left;
   font-size: 16px;
   color: white;
