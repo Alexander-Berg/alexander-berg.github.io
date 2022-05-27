@@ -466,7 +466,7 @@ d { font-size = 1em;
     text-decoration-color: green;
 }
 
-.navbar a:hover, .subnav:hover .subnavbtn {
+.navbar a,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16:hover, .subnav:hover .subnavbtn {
   background-color: green;
   text-decoration: underline;
   text-decoration-color: green;
@@ -482,14 +482,14 @@ d { font-size = 1em;
   z-index: 1;
 }
 
-.subnav-content a {
+.subnav-content a,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16 {
   float: left;
   color: white;
   text-decoration: underline;
   text-decoration-color: green;
 }
 
-.subnav-content a:hover {
+.subnav-content a,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16:hover {
   background-color: #eee;
   color: black;
 }
@@ -545,7 +545,7 @@ audio {
         font-size: 13px; 
     }
     
-      .navbar a 
+      .navbar a,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16
      {
         font-size:11px;
         padding: 6px 8px;
@@ -561,7 +561,7 @@ audio {
         font-size: 23px; 
      }
     
-     .navbar a 
+     .navbar a,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16
      {
         font-size:19px;
         padding: 28px 32px;
@@ -578,7 +578,7 @@ audio {
         font-size: 38px; 
     }
     
-      .navbar a 
+      .navbar a,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16 
      {
         font-size:32px;
         padding: 42px 48px;
@@ -594,7 +594,7 @@ audio {
     {
         font-size: 76px; 
     }
-      .navbar a 
+      .navbar a,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12,a13,a14,a15,a16 
      {
         font-size:64px;
         padding: 56px 64px;
